@@ -1,0 +1,13 @@
+{
+  "name": "coscup2026",
+  "version": "dev",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mirumo <mail@miru.cc>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.14.0"
+}

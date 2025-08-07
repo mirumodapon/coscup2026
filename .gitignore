@@ -1,0 +1,11 @@
+node_modules/
+
+# Logs
+logs/
+*.log
+pnpm-debug.log*
+
+# Local env files
+.env
+.env.*
+!.env.example
