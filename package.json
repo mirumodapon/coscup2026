@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "official:dev": "pnpm run --filter official dev",
+    "official:build": "pnpm run --filter official build"
   },
   "keywords": [],
   "author": "Mirumo <mail@miru.cc>",
