@@ -1,3 +1,12 @@
 packages:
-  - 'packages/*'
-  - 'apps/*'
+  - packages/*
+  - apps/*
+
+catalog:
+  '@types/node': ^24.2.1
+  '@vitejs/plugin-vue': ^6.0.1
+  '@vue/tsconfig': ^0.7.0
+  typescript: ~5.8.3
+  vite: ^7.1.0
+  vue: ^3.5.18
+  vue-tsc: ^3.0.5
