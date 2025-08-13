@@ -1,14 +1,19 @@
 {
   "name": "coscup2026",
   "version": "dev",
+  "packageManager": "pnpm@10.14.0",
   "description": "",
+  "author": "Mirumo <mail@miru.cc>",
+  "license": "MIT",
+  "keywords": [],
   "main": "index.js",
   "scripts": {
     "official:dev": "pnpm run --filter official dev",
-    "official:build": "pnpm run --filter official build"
+    "official:build": "pnpm run --filter official build",
+    "lint": "pnpm -r lint"
   },
-  "keywords": [],
-  "author": "Mirumo <mail@miru.cc>",
-  "license": "MIT",
-  "packageManager": "pnpm@10.14.0"
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.2.1",
+    "eslint": "^9.33.0"
+  }
 }
