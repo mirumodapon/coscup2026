@@ -3,9 +3,11 @@ packages:
   - apps/*
 
 catalog:
+  '@tailwindcss/vite': ^4.1.12
   '@types/node': ^24.2.1
   '@vitejs/plugin-vue': ^6.0.1
   '@vue/tsconfig': ^0.7.0
+  tailwindcss: ^4.1.12
   typescript: ~5.8.3
   vite: ^7.1.0
   vue: ^3.5.18
