@@ -3,7 +3,8 @@
   "description": "",
   "scripts": {},
   "exports": {
-    "./official": "./official/index.css"
+    "./official": "./official/index.css",
+    "./markdown": "./markdown/index.css"
   },
   "dependencies": {
     "@tailwindcss/vite": "catalog:",

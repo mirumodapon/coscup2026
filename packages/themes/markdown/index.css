@@ -1,0 +1,112 @@
+@import 'tailwindcss';
+
+
+/* paragraphs */
+.cp-markdown {
+  @apply p-5;
+}
+
+/* Headings */
+.cp-markdown :where(h1, h2, h3, h4, h5, h6) {
+  @apply font-bold;
+}
+
+.cp-markdown h1 {
+  @apply text-4xl font-bold;
+}
+
+.cp-markdown h2 {
+  @apply text-3xl font-bold;
+}
+
+.cp-markdown h3 {
+  @apply text-2xl font-bold;
+}
+
+.cp-markdown h4 {
+  @apply text-xl font-bold;
+}
+
+.cp-markdown h5 {
+  @apply text-lg font-bold;
+}
+
+.cp-markdown h6 {
+  @apply text-base font-bold;
+}
+
+/* Lists */
+.cp-markdown ul {
+  @apply list-disc list-inside;
+}
+
+.cp-markdown ol {
+  @apply list-decimal list-inside;
+}
+
+.cp-markdown li {
+  @apply ml-5;
+}
+
+.cp-markdown :where(ul, ol) p {
+  @apply inline-block my-3;
+}
+
+/* hr */
+.cp-markdown hr {
+  @apply my-4 border-gray-300;
+}
+
+/* quotes */
+.cp-markdown blockquote {
+  @apply my-4 border-l-2 border-gray-300 pl-4 text-gray-600;
+}
+
+/* codes */
+.cp-markdown :not(pre) code {
+  @apply bg-gray-200 rounded px-1 py-0.5;
+}
+
+.cp-markdown pre {
+  @apply bg-gray-200 rounded px-1 py-0.5;
+}
+
+/* tables */
+.cp-markdown table {
+  @apply border border-gray-300;
+}
+
+.cp-markdown th,
+.cp-markdown td {
+  @apply border border-gray-300 p-2;
+}
+
+.cp-markdown th {
+  @apply bg-gray-200;
+}
+
+/* links */
+.cp-markdown a {
+  @apply text-blue-600 underline;
+}
+
+/* container */
+.cp-markdown :where(div.warning, div.info, div.error, div.success) {
+  @apply border p-4 my-4 rounded;
+}
+
+.cp-markdown :where(div.warning) {
+  @apply bg-yellow-100 border-yellow-300;
+}
+
+.cp-markdown :where(div.info) {
+  @apply bg-blue-100 border-blue-300;
+}
+
+.cp-markdown :where(div.error) {
+  @apply bg-red-100 border-red-300;
+}
+
+.cp-markdown :where(div.success) {
+  @apply bg-green-100 border-green-300;
+}

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import DOMPurify from 'dompurify'
 import markdown from './render.ts'
+import 'themes/markdown'
 
 defineProps<{ content: string }>()
 </script>

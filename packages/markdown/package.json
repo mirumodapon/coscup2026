@@ -20,6 +20,7 @@
     "markdown-it-mark": "catalog:",
     "markdown-it-sub": "catalog:",
     "markdown-it-sup": "catalog:",
+    "themes": "workspace:*",
     "vue": "catalog:"
   },
   "devDependencies": {
