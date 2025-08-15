@@ -10,6 +10,16 @@
   "dependencies": {
     "dompurify": "catalog:",
     "markdown-it": "catalog:",
+    "markdown-it-abbr": "catalog:",
+    "markdown-it-anchor": "catalog:",
+    "markdown-it-container": "catalog:",
+    "markdown-it-deflist": "catalog:",
+    "markdown-it-emoji": "catalog:",
+    "markdown-it-footnote": "catalog:",
+    "markdown-it-ins": "catalog:",
+    "markdown-it-mark": "catalog:",
+    "markdown-it-sub": "catalog:",
+    "markdown-it-sup": "catalog:",
     "vue": "catalog:"
   },
   "devDependencies": {

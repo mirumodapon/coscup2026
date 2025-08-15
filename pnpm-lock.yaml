@@ -27,6 +27,36 @@ catalogs:
     markdown-it:
       specifier: ^14.1.0
       version: 14.1.0
+    markdown-it-abbr:
+      specifier: ^2.0.0
+      version: 2.0.0
+    markdown-it-anchor:
+      specifier: ^9.2.0
+      version: 9.2.0
+    markdown-it-container:
+      specifier: ^4.0.0
+      version: 4.0.0
+    markdown-it-deflist:
+      specifier: ^3.0.0
+      version: 3.0.0
+    markdown-it-emoji:
+      specifier: ^3.0.0
+      version: 3.0.0
+    markdown-it-footnote:
+      specifier: 4.0.0
+      version: 4.0.0
+    markdown-it-ins:
+      specifier: ^4.0.0
+      version: 4.0.0
+    markdown-it-mark:
+      specifier: ^4.0.0
+      version: 4.0.0
+    markdown-it-sub:
+      specifier: ^2.0.0
+      version: 2.0.0
+    markdown-it-sup:
+      specifier: ^2.0.0
+      version: 2.0.0
     tailwindcss:
       specifier: 4.1.12
       version: 4.1.12
@@ -102,6 +132,36 @@ importers:
       markdown-it:
         specifier: 'catalog:'
         version: 14.1.0
+      markdown-it-abbr:
+        specifier: 'catalog:'
+        version: 2.0.0
+      markdown-it-anchor:
+        specifier: 'catalog:'
+        version: 9.2.0(@types/markdown-it@14.1.2)(markdown-it@14.1.0)
+      markdown-it-container:
+        specifier: 'catalog:'
+        version: 4.0.0
+      markdown-it-deflist:
+        specifier: 'catalog:'
+        version: 3.0.0
+      markdown-it-emoji:
+        specifier: 'catalog:'
+        version: 3.0.0
+      markdown-it-footnote:
+        specifier: 'catalog:'
+        version: 4.0.0
+      markdown-it-ins:
+        specifier: 'catalog:'
+        version: 4.0.0
+      markdown-it-mark:
+        specifier: 'catalog:'
+        version: 4.0.0
+      markdown-it-sub:
+        specifier: 'catalog:'
+        version: 2.0.0
+      markdown-it-sup:
+        specifier: 'catalog:'
+        version: 2.0.0
       vue:
         specifier: 'catalog:'
         version: 3.5.18(typescript@5.8.3)
@@ -1527,6 +1587,39 @@ packages:
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
+
+  markdown-it-abbr@2.0.0:
+    resolution: {integrity: sha512-of7C8pXSjXjDojW4neNP+jD7inUYH/DO0Ca+K/4FUEccg0oHAEX/nfscw0jfz66PJbYWOAT9U8mjO21X5p6aAw==}
+
+  markdown-it-anchor@9.2.0:
+    resolution: {integrity: sha512-sa2ErMQ6kKOA4l31gLGYliFQrMKkqSO0ZJgGhDHKijPf0pNFM9vghjAh3gn26pS4JDRs7Iwa9S36gxm3vgZTzg==}
+    peerDependencies:
+      '@types/markdown-it': '*'
+      markdown-it: '*'
+
+  markdown-it-container@4.0.0:
+    resolution: {integrity: sha512-HaNccxUH0l7BNGYbFbjmGpf5aLHAMTinqRZQAEQbMr2cdD3z91Q6kIo1oUn1CQndkT03jat6ckrdRYuwwqLlQw==}
+
+  markdown-it-deflist@3.0.0:
+    resolution: {integrity: sha512-OxPmQ/keJZwbubjiQWOvKLHwpV2wZ5I3Smc81OjhwbfJsjdRrvD5aLTQxmZzzePeO0kbGzAo3Krk4QLgA8PWLg==}
+
+  markdown-it-emoji@3.0.0:
+    resolution: {integrity: sha512-+rUD93bXHubA4arpEZO3q80so0qgoFJEKRkRbjKX8RTdca89v2kfyF+xR3i2sQTwql9tpPZPOQN5B+PunspXRg==}
+
+  markdown-it-footnote@4.0.0:
+    resolution: {integrity: sha512-WYJ7urf+khJYl3DqofQpYfEYkZKbmXmwxQV8c8mO/hGIhgZ1wOe7R4HLFNwqx7TjILbnC98fuyeSsin19JdFcQ==}
+
+  markdown-it-ins@4.0.0:
+    resolution: {integrity: sha512-sWbjK2DprrkINE4oYDhHdCijGT+MIDhEupjSHLXe5UXeVr5qmVxs/nTUVtgi0Oh/qtF+QKV0tNWDhQBEPxiMew==}
+
+  markdown-it-mark@4.0.0:
+    resolution: {integrity: sha512-YLhzaOsU9THO/cal0lUjfMjrqSMPjjyjChYM7oyj4DnyaXEzA8gnW6cVJeyCrCVeyesrY2PlEdUYJSPFYL4Nkg==}
+
+  markdown-it-sub@2.0.0:
+    resolution: {integrity: sha512-iCBKgwCkfQBRg2vApy9vx1C1Tu6D8XYo8NvevI3OlwzBRmiMtsJ2sXupBgEA7PPxiDwNni3qIUkhZ6j5wofDUA==}
+
+  markdown-it-sup@2.0.0:
+    resolution: {integrity: sha512-5VgmdKlkBd8sgXuoDoxMpiU+BiEt3I49GItBzzw7Mxq9CxvnhE/k09HFli09zgfFDRixDQDfDxi0mgBCXtaTvA==}
 
   markdown-it@14.1.0:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
@@ -3419,6 +3512,29 @@ snapshots:
   magic-string@0.30.17:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.4
+
+  markdown-it-abbr@2.0.0: {}
+
+  markdown-it-anchor@9.2.0(@types/markdown-it@14.1.2)(markdown-it@14.1.0):
+    dependencies:
+      '@types/markdown-it': 14.1.2
+      markdown-it: 14.1.0
+
+  markdown-it-container@4.0.0: {}
+
+  markdown-it-deflist@3.0.0: {}
+
+  markdown-it-emoji@3.0.0: {}
+
+  markdown-it-footnote@4.0.0: {}
+
+  markdown-it-ins@4.0.0: {}
+
+  markdown-it-mark@4.0.0: {}
+
+  markdown-it-sub@2.0.0: {}
+
+  markdown-it-sup@2.0.0: {}
 
   markdown-it@14.1.0:
     dependencies:
