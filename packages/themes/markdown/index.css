@@ -91,22 +91,23 @@
 }
 
 /* container */
-.cp-markdown :where(div.warning, div.info, div.error, div.success) {
+
+.cp-markdown .container {
   @apply border p-4 my-4 rounded;
 }
 
-.cp-markdown :where(div.warning) {
+.cp-markdown .container-warning {
   @apply bg-yellow-100 border-yellow-300;
 }
 
-.cp-markdown :where(div.info) {
+.cp-markdown .container-info {
   @apply bg-blue-100 border-blue-300;
 }
 
-.cp-markdown :where(div.error) {
+.cp-markdown .container-error {
   @apply bg-red-100 border-red-300;
 }
 
-.cp-markdown :where(div.success) {
+.cp-markdown .container-success {
   @apply bg-green-100 border-green-300;
 }
