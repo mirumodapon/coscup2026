@@ -1,3 +1,4 @@
+import DOMPurify from 'dompurify'
 import MarkdownIt from 'markdown-it'
 import markdownItAbbr from 'markdown-it-abbr'
 import markdownItAnchor from 'markdown-it-anchor'
@@ -38,4 +39,7 @@ md.use(markdownitContainer, 'container', {
   },
 })
 
-export default md
+export default {
+  ...md,
+  safeRender: (text: string) => DOMPurify.sanitize(md.render(text)),
+}

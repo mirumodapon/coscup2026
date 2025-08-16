@@ -2,7 +2,8 @@
   "name": "ui",
   "description": "",
   "exports": {
-    ".": "./src"
+    ".": "./src/index.ts",
+    "./*": "./src/*.vue"
   },
   "scripts": {
     "lint": "eslint ."
@@ -10,6 +11,8 @@
   "dependencies": {
     "@tailwindcss/vite": "catalog:",
     "tailwindcss": "catalog:",
+    "themes": "workspace:*",
+    "utils": "workspace:*",
     "vue": "catalog:"
   }
 }

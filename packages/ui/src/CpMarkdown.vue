@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import DOMPurify from 'dompurify'
-import markdown from './render.ts'
+import markdown from 'utils/markdown'
 import 'themes/markdown'
 
 defineProps<{ content: string }>()
@@ -9,6 +8,6 @@ defineProps<{ content: string }>()
 <template>
   <div
     class="cp-markdown"
-    v-html="DOMPurify.sanitize(markdown.render(content))"
+    v-html="markdown.safeRender(content)"
   />
 </template>

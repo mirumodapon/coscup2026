@@ -107,9 +107,6 @@ importers:
       icons:
         specifier: workspace:*
         version: link:../../packages/icons
-      markdown:
-        specifier: workspace:*
-        version: link:../../packages/markdown
       tailwindcss:
         specifier: 'catalog:'
         version: 4.1.12
@@ -122,6 +119,9 @@ importers:
       unplugin-icons:
         specifier: 'catalog:'
         version: 22.2.0(@vue/compiler-sfc@3.5.18)
+      utils:
+        specifier: workspace:*
+        version: link:../../packages/utils
       vue:
         specifier: 'catalog:'
         version: 3.5.18(typescript@5.8.3)
@@ -213,9 +213,64 @@ importers:
       tailwindcss:
         specifier: 'catalog:'
         version: 4.1.12
+      themes:
+        specifier: workspace:*
+        version: link:../themes
+      utils:
+        specifier: workspace:*
+        version: link:../utils
       vue:
         specifier: 'catalog:'
         version: 3.5.18(typescript@5.8.3)
+
+  packages/utils:
+    dependencies:
+      dompurify:
+        specifier: 'catalog:'
+        version: 3.2.6
+      markdown-it:
+        specifier: 'catalog:'
+        version: 14.1.0
+      markdown-it-abbr:
+        specifier: 'catalog:'
+        version: 2.0.0
+      markdown-it-anchor:
+        specifier: 'catalog:'
+        version: 9.2.0(@types/markdown-it@14.1.2)(markdown-it@14.1.0)
+      markdown-it-container:
+        specifier: 'catalog:'
+        version: 4.0.0
+      markdown-it-deflist:
+        specifier: 'catalog:'
+        version: 3.0.0
+      markdown-it-emoji:
+        specifier: 'catalog:'
+        version: 3.0.0
+      markdown-it-footnote:
+        specifier: 'catalog:'
+        version: 4.0.0
+      markdown-it-ins:
+        specifier: 'catalog:'
+        version: 4.0.0
+      markdown-it-mark:
+        specifier: 'catalog:'
+        version: 4.0.0
+      markdown-it-sub:
+        specifier: 'catalog:'
+        version: 2.0.0
+      markdown-it-sup:
+        specifier: 'catalog:'
+        version: 2.0.0
+      themes:
+        specifier: workspace:*
+        version: link:../themes
+      vue:
+        specifier: 'catalog:'
+        version: 3.5.18(typescript@5.8.3)
+    devDependencies:
+      '@types/markdown-it':
+        specifier: 'catalog:'
+        version: 14.1.2
 
 packages:
 

@@ -14,11 +14,11 @@
     "@iconify-json/simple-icons": "catalog:",
     "@tailwindcss/vite": "catalog:",
     "icons": "workspace:*",
-    "markdown": "workspace:*",
     "tailwindcss": "catalog:",
     "themes": "workspace:*",
     "ui": "workspace:*",
     "unplugin-icons": "catalog:",
+    "utils": "workspace:*",
     "vue": "catalog:"
   },
   "devDependencies": {

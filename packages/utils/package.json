@@ -1,8 +1,8 @@
 {
-  "name": "markdown",
+  "name": "utils",
   "description": "",
   "exports": {
-    ".": "./src"
+    "./*": "./src/*/index.ts"
   },
   "scripts": {
     "lint": "eslint ."
