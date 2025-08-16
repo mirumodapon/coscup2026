@@ -1,0 +1,15 @@
+{
+  "name": "ui",
+  "description": "",
+  "exports": {
+    ".": "./src"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "catalog:",
+    "tailwindcss": "catalog:",
+    "vue": "catalog:"
+  }
+}

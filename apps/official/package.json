@@ -13,6 +13,7 @@
     "@tailwindcss/vite": "catalog:",
     "tailwindcss": "catalog:",
     "themes": "workspace:*",
+    "ui": "workspace:*",
     "vue": "catalog:"
   },
   "devDependencies": {
