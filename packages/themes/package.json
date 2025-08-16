@@ -1,0 +1,12 @@
+{
+  "name": "themes",
+  "description": "",
+  "scripts": {},
+  "exports": {
+    "./official": "./official/index.css"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "catalog:",
+    "tailwindcss": "catalog:"
+  }
+}
