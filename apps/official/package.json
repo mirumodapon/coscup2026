@@ -13,6 +13,7 @@
     "@iconify-json/mingcute": "catalog:",
     "@iconify-json/simple-icons": "catalog:",
     "@tailwindcss/vite": "catalog:",
+    "icons": "workspace:*",
     "markdown": "workspace:*",
     "tailwindcss": "catalog:",
     "themes": "workspace:*",
