@@ -10,11 +10,14 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@iconify-json/mingcute": "catalog:",
+    "@iconify-json/simple-icons": "catalog:",
     "@tailwindcss/vite": "catalog:",
     "markdown": "workspace:*",
     "tailwindcss": "catalog:",
     "themes": "workspace:*",
     "ui": "workspace:*",
+    "unplugin-icons": "catalog:",
     "vue": "catalog:"
   },
   "devDependencies": {
