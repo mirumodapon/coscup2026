@@ -1,16 +1,22 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "dist",
+    "tsBuildInfoFile": "dist/tsconfig.app.tsbuildinfo",
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "rootDir": "src",
+    "resolveJsonModule": true,
     "types": [
       "vite/client"
     ],
-    "rootDir": "src",
-    "jsx": "preserve",
-    "jsxImportSource": "vue",
-    "resolveJsonModule": true,
-    "tsBuildInfoFile": "dist/tsconfig.app.tsbuildinfo"
+    "outDir": "dist"
   },
+  "include": [
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*.ts",
+    "src/**/*.vue"
+  ],
   "exclude": [
     "out-tsc",
     "dist",
@@ -18,11 +24,5 @@
     "src/**/*.test.ts",
     "src/**/*.spec.vue",
     "src/**/*.test.vue"
-  ],
-  "include": [
-    "src/**/*.js",
-    "src/**/*.jsx",
-    "src/**/*.ts",
-    "src/**/*.vue"
   ]
 }

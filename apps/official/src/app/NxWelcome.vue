@@ -14,7 +14,10 @@ defineProps<{
         </h1>
       </div>
 
-      <div id="hero" class="rounded">
+      <div
+        id="hero"
+        class="rounded"
+      >
         <div class="text-container">
           <h2>
             <svg
@@ -24,10 +27,10 @@ defineProps<{
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
+                d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
               />
             </svg>
             <span>You&apos;re up and running</span>
@@ -47,160 +50,163 @@ defineProps<{
       </div>
 
       <div id="middle-content">
-      <div id="middle-left-content">
-        <div id="learning-materials" class="rounded shadow">
-          <h2>Learning materials</h2>
-          <a
-            href="https://nx.dev/getting-started/intro?utm_source=nx-project"
-            target="_blank"
-            rel="noreferrer"
-            class="list-item-link"
+        <div id="middle-left-content">
+          <div
+            id="learning-materials"
+            class="rounded shadow"
           >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <h2>Learning materials</h2>
+            <a
+              class="list-item-link"
+              href="https://nx.dev/getting-started/intro?utm_source=nx-project"
+              rel="noreferrer"
+              target="_blank"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-              />
-            </svg>
-            <span>
-              Documentation
-              <span> Everything is in there </span>
-            </span>
-            <svg
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+              <svg
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                />
+              </svg>
+              <span>
+                Documentation
+                <span> Everything is in there </span>
+              </span>
+              <svg
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 5l7 7-7 7"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                />
+              </svg>
+            </a>
+            <a
+              class="list-item-link"
+              href="https://nx.dev/blog/?utm_source=nx-project"
+              rel="noreferrer"
+              target="_blank"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </a>
-          <a
-            href="https://nx.dev/blog/?utm_source=nx-project"
-            target="_blank"
-            rel="noreferrer"
-            class="list-item-link"
-          >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+              <svg
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                />
+              </svg>
+              <span>
+                Blog
+                <span> Changelog, features & events </span>
+              </span>
+              <svg
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 5l7 7-7 7"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                />
+              </svg>
+            </a>
+            <a
+              class="list-item-link"
+              href="https://www.youtube.com/@NxDevtools/videos?utm_source=nx-project&sub_confirmation=1"
+              rel="noreferrer"
+              target="_blank"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
-              />
-            </svg>
-            <span>
-              Blog
-              <span> Changelog, features & events </span>
-            </span>
-            <svg
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+              <svg
+                fill="currentColor"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>YouTube</title>
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+              <span>
+                YouTube channel
+                <span> Nx Show, talks & tutorials </span>
+              </span>
+              <svg
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 5l7 7-7 7"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                />
+              </svg>
+            </a>
+            <a
+              class="list-item-link"
+              href="https://nx.dev/getting-started/tutorials/vue-standalone-tutorial?utm_source=nx-project"
+              rel="noreferrer"
+              target="_blank"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </a>
-          <a
-            href="https://www.youtube.com/@NxDevtools/videos?utm_source=nx-project&sub_confirmation=1"
-            target="_blank"
-            rel="noreferrer"
-            class="list-item-link"
-          >
-            <svg
-              role="img"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>YouTube</title>
-              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-            </svg>
-            <span>
-              YouTube channel
-              <span> Nx Show, talks & tutorials </span>
-            </span>
-            <svg
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </a>
-          <a
-            href="https://nx.dev/getting-started/tutorials/vue-standalone-tutorial?utm_source=nx-project"
-            target="_blank"
-            rel="noreferrer"
-            class="list-item-link"
-          >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-              />
-            </svg>
-            <span>
-              Interactive tutorials
-              <span> Create an app, step-by-step </span>
-            </span>
-            <svg
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </a>
+              <svg
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                />
+              </svg>
+              <span>
+                Interactive tutorials
+                <span> Create an app, step-by-step </span>
+              </span>
+              <svg
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 5l7 7-7 7"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                />
+              </svg>
+            </a>
           </div>
           <a
             id="nx-repo"
             class="button-pill rounded shadow"
             href="https://github.com/nrwl/nx?utm_source=nx-project"
-            target="_blank"
             rel="noreferrer"
+            target="_blank"
           >
             <svg
               fill="currentColor"
@@ -221,8 +227,8 @@ defineProps<{
             id="nx-console"
             class="button-pill rounded shadow"
             href="https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console&utm_source=nx-project"
-            target="_blank"
             rel="noreferrer"
+            target="_blank"
           >
             <svg
               fill="currentColor"
@@ -242,13 +248,13 @@ defineProps<{
             id="nx-console-jetbrains"
             class="button-pill rounded shadow"
             href="https://plugins.jetbrains.com/plugin/21060-nx-console"
-            target="_blank"
             rel="noreferrer"
+            target="_blank"
           >
             <svg
               height="48"
-              width="48"
               viewBox="20 20 60 60"
+              width="48"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path d="m22.5 22.5h60v60h-60z" />
@@ -272,23 +278,26 @@ defineProps<{
               </span>
             </span>
           </a>
-          <div id="nx-cloud" class="rounded shadow">
+          <div
+            id="nx-cloud"
+            class="rounded shadow"
+          >
             <div>
               <svg
                 id="nx-cloud-logo"
-                role="img"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="currentColor"
                 fill="transparent"
+                role="img"
+                stroke="currentColor"
                 viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  strokeWidth="2"
                   d="M23 3.75V6.5c-3.036 0-5.5 2.464-5.5 5.5s-2.464 5.5-5.5 5.5-5.5 2.464-5.5 5.5H3.75C2.232 23 1 21.768 1 20.25V3.75C1 2.232 2.232 1 3.75 1h16.5C21.768 1 23 2.232 23 3.75Z"
+                  strokeWidth="2"
                 />
                 <path
-                  strokeWidth="2"
                   d="M23 6v14.1667C23 21.7307 21.7307 23 20.1667 23H6c0-3.128 2.53867-5.6667 5.6667-5.6667 3.128 0 5.6666-2.5386 5.6666-5.6666C17.3333 8.53867 19.872 6 23 6Z"
+                  strokeWidth="2"
                 />
               </svg>
               <h2>
@@ -301,39 +310,21 @@ defineProps<{
             </p>
             <a
               href="https://cloud.nx.app/connect/OWb8E8Da8H"
-              target="_blank"
               rel="noreferrer"
+              target="_blank"
             >
-            Click here to finish
+              Click here to finish
             </a>
           </div>
         </div>
       </div>
 
-      <div id="commands" class="rounded shadow">
+      <div
+        id="commands"
+        class="rounded shadow"
+      >
         <h2>Next steps</h2>
         <p>Here are some things you can do with Nx:</p>
-          <details>
-            <summary>
-              <svg
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                />
-              </svg>
-              Build, test and lint your app
-              </summary>
-          <pre> <span># Build</span>nx build {{ title }}<span># Test</span>nx test {{ title }}
-<span># Lint</span>nx lint {{ title }}
-<span># Run them together!</span>nx run-many -p {{ title }} -t build test lint </pre>
-            </details>
         <details>
           <summary>
             <svg
@@ -343,10 +334,31 @@ defineProps<{
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
+                d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
+              />
+            </svg>
+            Build, test and lint your app
+          </summary>
+          <pre> <span># Build</span>nx build {{ title }}<span># Test</span>nx test {{ title }}
+<span># Lint</span>nx lint {{ title }}
+<span># Run them together!</span>nx run-many -p {{ title }} -t build test lint </pre>
+        </details>
+        <details>
+          <summary>
+            <svg
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
                 d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
               />
             </svg>
             View project details
@@ -362,10 +374,10 @@ defineProps<{
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
+                d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
               />
             </svg>
             View interactive project graph
@@ -381,10 +393,10 @@ defineProps<{
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
+                d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
               />
             </svg>
             Add UI library
@@ -404,10 +416,10 @@ defineProps<{
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
+            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
-            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
           />
         </svg>
       </p>

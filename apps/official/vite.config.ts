@@ -1,15 +1,15 @@
+import vue from '@vitejs/plugin-vue'
 /// <reference types='vitest' />
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
+import { defineConfig } from 'vite'
 
 export default defineConfig(() => ({
   root: __dirname,
   cacheDir: '../../node_modules/.vite/apps/official',
-  server:{
+  server: {
     port: 4200,
     host: 'localhost',
   },
-  preview:{
+  preview: {
     port: 4300,
     host: 'localhost',
   },
@@ -26,4 +26,4 @@ export default defineConfig(() => ({
       transformMixedEsModules: true,
     },
   },
-}));
+}))
