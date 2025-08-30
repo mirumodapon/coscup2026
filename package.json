@@ -1,0 +1,32 @@
+{
+  "name": "@coscup2026/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@nx/js": "21.4.1",
+    "@nx/vite": "21.4.1",
+    "@nx/vue": "21.4.1",
+    "@nx/web": "21.4.1",
+    "@nx/workspace": "21.4.1",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vitest/ui": "^3.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "jiti": "2.4.2",
+    "jsdom": "~22.1.0",
+    "nx": "21.4.1",
+    "tslib": "^2.3.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0",
+    "vue-tsc": "^2.2.8"
+  },
+  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
+}
