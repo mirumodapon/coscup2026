@@ -1,5 +1,5 @@
+import { resolve } from 'node:path'
 import vue from '@vitejs/plugin-vue'
-/// <reference types='vitest' />
 import { defineConfig } from 'vite'
 
 export default defineConfig(() => ({
@@ -14,16 +14,17 @@ export default defineConfig(() => ({
     host: 'localhost',
   },
   plugins: [vue()],
-  // Uncomment this if you are using workers.
-  // worker: {
-  //  plugins: [ nxViteTsPaths() ],
-  // },
   build: {
     outDir: './dist',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
       transformMixedEsModules: true,
+    },
+  },
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src'),
     },
   },
 }))
