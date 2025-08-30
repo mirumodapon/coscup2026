@@ -2,10 +2,7 @@
   "extends": "../../tsconfig.base.json",
   "references": [
     {
-      "path": "../../packages/ui"
-    },
-    {
-      "path": "./tsconfig.app.json"
+      "path": "./tsconfig.lib.json"
     }
   ],
   "files": [],

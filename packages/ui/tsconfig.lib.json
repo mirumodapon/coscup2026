@@ -1,7 +1,7 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "tsBuildInfoFile": "dist/tsconfig.app.tsbuildinfo",
+    "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
     "jsx": "preserve",
     "jsxImportSource": "vue",
     "rootDir": "src",
@@ -15,19 +15,8 @@
     "src/**/*.js",
     "src/**/*.jsx",
     "src/**/*.ts",
+    "src/**/*.tsx",
     "src/**/*.vue"
   ],
-  "exclude": [
-    "out-tsc",
-    "dist",
-    "src/**/*.spec.ts",
-    "src/**/*.test.ts",
-    "src/**/*.spec.vue",
-    "src/**/*.test.vue"
-  ],
-  "references": [
-    {
-      "path": "../../packages/ui/tsconfig.lib.json"
-    }
-  ]
+  "exclude": []
 }

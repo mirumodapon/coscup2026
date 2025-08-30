@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^5.2.1",
+    "@coscup2026/ui": "workspace:",
     "@nx/eslint": "21.4.1",
     "@nx/js": "21.4.1",
     "@nx/vite": "21.4.1",
@@ -29,6 +30,7 @@
     "tslib": "^2.3.0",
     "typescript": "~5.8.2",
     "vite": "^6.0.0",
+    "vite-plugin-dts": "~4.5.0",
     "vitest": "^3.0.0",
     "vue-tsc": "^2.2.8"
   },
