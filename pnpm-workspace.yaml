@@ -1,5 +1,5 @@
 packages:
   - "apps/*"
-
+  - "packages/ui"
 autoInstallPeers: true
 strictPeerDependencies: false

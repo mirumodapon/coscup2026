@@ -5,6 +5,9 @@
   "references": [
     {
       "path": "./apps/official"
+    },
+    {
+      "path": "./packages/ui"
     }
   ]
 }
