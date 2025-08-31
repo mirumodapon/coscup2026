@@ -1,5 +1,6 @@
 import { resolve } from 'node:path'
 import vue from '@vitejs/plugin-vue'
+import UnoCss from 'unocss/vite'
 import { defineConfig } from 'vite'
 
 export default defineConfig(() => ({
@@ -13,7 +14,7 @@ export default defineConfig(() => ({
     port: 4300,
     host: 'localhost',
   },
-  plugins: [vue()],
+  plugins: [vue(), UnoCss()],
   build: {
     outDir: './dist',
     emptyOutDir: true,
