@@ -81,6 +81,9 @@ importers:
       unocss:
         specifier: ^66.5.0
         version: 66.5.0(postcss@8.5.6)(vite@6.3.5(@types/node@24.3.0)(jiti@2.4.2)(yaml@2.8.1))
+      unocss-preset-theme:
+        specifier: ^0.14.1
+        version: 0.14.1(@unocss/core@66.5.0)
       vite:
         specifier: ^6.0.0
         version: 6.3.5(@types/node@24.3.0)(jiti@2.4.2)(yaml@2.8.1)
@@ -1500,6 +1503,9 @@ packages:
     resolution: {integrity: sha512-vNPqcfCPIVCuV3AU13d6qO/wSRrvdXeV8myQQUlUBVkvHezFBQ/atVOP77Ov5qUBARyx3zwUCkgQxYOCs60EGw==}
     engines: {node: '>=14'}
 
+  '@unocss/core@0.63.6':
+    resolution: {integrity: sha512-Q4QPgJ271Up89+vIqqOKgtdCKkFpHqvHN8W1LUlKPqtYnOvVYaOIVNAZowaIdEhPuc83yLc6Tg2+7riK18QKEw==}
+
   '@unocss/core@66.5.0':
     resolution: {integrity: sha512-4JStg50nrwd4aJulbPYglqHyuVUHMEX2EltpdxrrxknvSjy4LriKCVUCEmIljsbTFDXm8xcPnPGs6VN/ZmlKlA==}
 
@@ -1547,6 +1553,10 @@ packages:
 
   '@unocss/reset@66.5.0':
     resolution: {integrity: sha512-Sf27NbbNUg3e4BShQB7EsMCS1GtA6IORBm08SitSpUZZYOZAj+LAypYsOJ4rttAFs/Hp1h0AxtNShesXWK66oA==}
+
+  '@unocss/rule-utils@0.63.6':
+    resolution: {integrity: sha512-moeDEq5d9mB8gSYeoqHMkXWWekaFFdhg7QCuwwCbxCc+NPMOgGkmfAoafz+y2tdvK7pEuT191RWOiHQ0MkA5oQ==}
+    engines: {node: '>=14'}
 
   '@unocss/rule-utils@66.5.0':
     resolution: {integrity: sha512-+yqGZP8fR/G/gOkjXSXjmgTXFr4zGCQR+rA3Ana4xVoLIttcmPk4qO1IWcUVRQTDDqFmUjW/XwWmChta+rdQsA==}
@@ -3714,6 +3724,11 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
+  unocss-preset-theme@0.14.1:
+    resolution: {integrity: sha512-j2sFIUeKy0FC3DejIZ/+tyiKEszoMiAAsuOyZBubw7XErHL5ZvpwBmLM5Qj/czbfKbv1TdeJW5RO4PRKACiRGw==}
+    peerDependencies:
+      '@unocss/core': '>= 0.52.0'
+
   unocss@66.5.0:
     resolution: {integrity: sha512-dnrr3xqIm3B0t6OXyIxFYwfyMgdkp6MVRgrJXSEU0cEmea8lFf7ssU2MNx1Zice3JvQOOpe4FMVINtv/TBZCIA==}
     engines: {node: '>=14'}
@@ -5615,6 +5630,8 @@ snapshots:
       '@unocss/core': 66.5.0
       unconfig: 7.3.3
 
+  '@unocss/core@0.63.6': {}
+
   '@unocss/core@66.5.0': {}
 
   '@unocss/extractor-arbitrary-variants@66.5.0':
@@ -5694,6 +5711,11 @@ snapshots:
       '@unocss/preset-wind3': 66.5.0
 
   '@unocss/reset@66.5.0': {}
+
+  '@unocss/rule-utils@0.63.6':
+    dependencies:
+      '@unocss/core': 0.63.6
+      magic-string: 0.30.18
 
   '@unocss/rule-utils@66.5.0':
     dependencies:
@@ -8177,6 +8199,11 @@ snapshots:
   universalify@0.2.0: {}
 
   universalify@2.0.1: {}
+
+  unocss-preset-theme@0.14.1(@unocss/core@66.5.0):
+    dependencies:
+      '@unocss/core': 66.5.0
+      '@unocss/rule-utils': 0.63.6
 
   unocss@66.5.0(postcss@8.5.6)(vite@6.3.5(@types/node@24.3.0)(jiti@2.4.2)(yaml@2.8.1)):
     dependencies:
