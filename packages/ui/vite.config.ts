@@ -1,5 +1,6 @@
 import * as path from 'node:path'
 import vue from '@vitejs/plugin-vue'
+import UnoCss from 'unocss/vite'
 /// <reference types='vitest' />
 import { defineConfig } from 'vite'
 import dts from 'vite-plugin-dts'
@@ -7,7 +8,7 @@ import dts from 'vite-plugin-dts'
 export default defineConfig(() => ({
   root: __dirname,
   cacheDir: '../../node_modules/.vite/packages/ui',
-  plugins: [vue(), dts({ entryRoot: 'src', tsconfigPath: path.join(__dirname, 'tsconfig.lib.json') })],
+  plugins: [vue(), UnoCss(), dts({ entryRoot: 'src', tsconfigPath: path.join(__dirname, 'tsconfig.lib.json') })],
   // Uncomment this if you are using workers.
   // worker: {
   //  plugins: [ nxViteTsPaths() ],
@@ -32,7 +33,7 @@ export default defineConfig(() => ({
     },
     rollupOptions: {
       // External packages that should not be bundled into your library.
-      external: [],
+      external: ['vue'],
     },
   },
 }))

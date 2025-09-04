@@ -4,6 +4,7 @@ import { defineConfig } from 'unocss'
 import presetThemes from 'unocss-preset-theme'
 
 export default defineConfig({
+  mergeSelectors: true,
   presets: [
     presetWind3(),
     presetThemes<Theme>({
