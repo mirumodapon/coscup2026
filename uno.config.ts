@@ -1,12 +1,16 @@
-import type { Theme } from '@unocss/preset-wind3'
-import { presetWind3 } from '@unocss/preset-wind3'
+import type { Theme } from '@unocss/preset-wind4'
+import { presetWind4 } from '@unocss/preset-wind4'
 import { defineConfig } from 'unocss'
 import presetThemes from 'unocss-preset-theme'
 
 export default defineConfig({
   mergeSelectors: true,
   presets: [
-    presetWind3(),
+    presetWind4({
+      preflights: {
+        reset: true,
+      },
+    }),
     presetThemes<Theme>({
       theme: {
         light: {
