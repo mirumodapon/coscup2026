@@ -1,10 +1,14 @@
 import type { Theme } from '@unocss/preset-wind4'
 import { presetWind4 } from '@unocss/preset-wind4'
+import transformerDirectives from '@unocss/transformer-directives'
 import { defineConfig } from 'unocss'
 import presetThemes from 'unocss-preset-theme'
 
 export default defineConfig({
   mergeSelectors: true,
+  transformers: [
+    transformerDirectives(),
+  ],
   presets: [
     presetWind4({
       preflights: {
