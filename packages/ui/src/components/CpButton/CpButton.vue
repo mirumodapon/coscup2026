@@ -23,7 +23,7 @@ const props = withDefaults(
   </component>
 </template>
 
-<style scoped>
+<style>
 .cp-button {
   @apply inline-block whitespace-nowrap text-center border-2;
   @apply active:scale-[0.95] active:duration-75;

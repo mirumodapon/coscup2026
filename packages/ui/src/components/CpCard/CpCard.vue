@@ -21,7 +21,7 @@ defineProps<{ title: string }>()
   </div>
 </template>
 
-<style scoped>
+<style>
 .cp-card {
   @apply w-[600px] h-[240px] bg-white flex flex-row rounded-2xl overflow-hidden;
   @apply shadow-md;
