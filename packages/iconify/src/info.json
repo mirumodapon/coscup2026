@@ -1,0 +1,19 @@
+{
+	"prefix": "cp",
+	"name": "@coscup2026/iconify",
+	"total": 1,
+	"version": "",
+	"author": {
+		"name": "",
+		"url": ""
+	},
+	"license": {
+		"title": "",
+		"spdx": "",
+		"url": ""
+	},
+	"samples": [
+	],
+	"height": 24,
+	"palette": false
+}

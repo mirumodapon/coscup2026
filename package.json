@@ -10,8 +10,10 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^5.2.1",
+    "@coscup2026/iconify": "workspace:",
     "@coscup2026/ui": "workspace:",
     "@iconify-json/tabler": "^1.2.22",
+    "@iconify/types": "^2.0.0",
     "@nx/eslint": "21.4.1",
     "@nx/js": "21.4.1",
     "@nx/vite": "21.4.1",
