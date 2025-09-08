@@ -15,7 +15,10 @@ defineProps<{ title: string }>()
         <slot name="actions" />
       </div>
     </div>
-    <div class="cp-card__image-wrap">
+    <div
+      v-if="$slots.image"
+      class="cp-card__image-wrap"
+    >
       <slot name="image" />
     </div>
   </div>
@@ -23,12 +26,16 @@ defineProps<{ title: string }>()
 
 <style>
 .cp-card {
-  @apply w-[600px] h-[240px] bg-white flex flex-row rounded-2xl overflow-hidden;
-  @apply shadow-md;
+  @apply max-w-[650px] min-h-[250px] max-h-[400px];
+  @apply bg-white;
+  @apply flex flex-wrap-reverse;
+  @apply rounded-xl overflow-hidden shadow-lg;
 }
 
 .cp-card__content-wrap {
-  @apply p-4 flex flex-col flex-1 text-gray-700;
+  @apply text-gray-700;
+  @apply grow-3 basis-[320px] p-5;
+  @apply flex flex-col gap-3;
 }
 
 .cp-card__title {
@@ -36,14 +43,19 @@ defineProps<{ title: string }>()
 }
 
 .cp-card__content {
-  @apply mt-2 flex-1;
+  @apply flex-1;
+}
+
+.cp-card__content * {
+  @apply h-[100px] line-clamp-4 text-justify;
 }
 
 .cp-card__image-wrap {
-  @apply basis-[230px] overflow-hidden;
+  @apply basis-[240px] grow-1;
 }
 
 .cp-card__image-wrap > * {
-  @apply w-full h-full object-cover;
+  @apply w-full h-full;
+  @apply object-cover;
 }
 </style>
