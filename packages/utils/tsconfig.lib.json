@@ -4,11 +4,10 @@
     "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
     "baseUrl": ".",
     "rootDir": "src",
-    "types": ["node"],
     "emitDeclarationOnly": false,
     "outDir": "dist",
     "forceConsistentCasingInFileNames": true
   },
   "references": [],
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts"]
 }
