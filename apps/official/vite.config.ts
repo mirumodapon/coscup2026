@@ -39,4 +39,8 @@ export default defineConfig(() => ({
       '@': resolve(__dirname, 'src'),
     },
   },
+  ssgOptions: {
+    dirStyle: 'nested' as const,
+    formatting: 'minify' as const,
+  },
 }))

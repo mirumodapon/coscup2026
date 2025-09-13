@@ -1,3 +1,5 @@
 <template>
-  <h1>Hello, @coscup 2026</h1>
+  <main>
+    <router-view />
+  </main>
 </template>
