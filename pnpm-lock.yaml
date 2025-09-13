@@ -21,6 +21,9 @@ importers:
       '@coscup2026/ui':
         specifier: 'workspace:'
         version: link:packages/ui
+      '@coscup2026/utils':
+        specifier: 'workspace:'
+        version: link:packages/utils
       '@iconify-json/tabler':
         specifier: ^1.2.22
         version: 1.2.22
@@ -121,6 +124,12 @@ importers:
         version: 2.8.1
 
   packages/ui: {}
+
+  packages/utils:
+    dependencies:
+      tslib:
+        specifier: ^2.3.0
+        version: 2.8.1
 
 packages:
 

@@ -10,6 +10,9 @@
     },
     {
       "path": "./packages/iconify"
+    },
+    {
+      "path": "./packages/utils"
     }
   ],
   "files": []

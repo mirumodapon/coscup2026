@@ -13,7 +13,7 @@
   },
   "references": [
     {
-      "path": "../../packages/ui/tsconfig.lib.json"
+      "path": "../../packages/utils/tsconfig.lib.json"
     }
   ],
   "include": [
