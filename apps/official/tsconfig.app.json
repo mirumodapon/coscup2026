@@ -5,6 +5,9 @@
     "jsx": "preserve",
     "jsxImportSource": "vue",
     "rootDir": "src",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "resolveJsonModule": true,
     "types": [
       "vite/client"
