@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import ExternalLinkIcon from '~icons/tabler/external-link'
-import LanguageIcon from '~icons/tabler/language'
 import logoImg from '@/assets/img/coscup-logo.png'
+import LocaleSelector from '@/components/LocaleSelector.vue'
 
 const menu = [
   { name: '議程表', path: '#' },
@@ -46,9 +46,7 @@ const menu = [
       </ul>
     </div>
     <div class="text-[24px] flex justify-end items-center basis-[180px] px-3 py-1">
-      <button class="cursor-pointer transition hover:scale-105 active:scale-95">
-        <LanguageIcon />
-      </button>
+      <LocaleSelector />
     </div>
   </nav>
 </template>
