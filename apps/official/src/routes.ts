@@ -10,14 +10,14 @@ const pages = Object.entries<{ default: Component }>(import.meta.glob('@/pages/*
       .join('/')
 
     return {
-      path: `/${path}`,
+      path: `${path}`,
       component: component.default,
     }
   })
 
 export const routes = [
   {
-    path: '/',
+    path: '/:lang',
     children: pages,
   },
 ]
