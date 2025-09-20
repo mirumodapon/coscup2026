@@ -22,4 +22,5 @@ watch(
   <main>
     <router-view />
   </main>
+  <h1>Hello, @coscup 2026</h1>
 </template>
