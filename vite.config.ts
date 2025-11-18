@@ -6,8 +6,6 @@ import Icons from 'unplugin-icons/vite'
 import { defineConfig } from 'vite'
 
 export default defineConfig(() => ({
-  root: __dirname,
-  cacheDir: '../../node_modules/.vite/apps/official',
   server: {
     port: 4200,
     host: 'localhost',
@@ -27,7 +25,6 @@ export default defineConfig(() => ({
     }),
   ],
   build: {
-    outDir: './dist',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
