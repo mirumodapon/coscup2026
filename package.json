@@ -18,9 +18,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^5.2.1",
-    "@coscup2026/iconify": "workspace:",
-    "@coscup2026/ui": "workspace:",
-    "@coscup2026/utils": "workspace:",
     "@iconify-json/tabler": "^1.2.22",
     "@iconify/types": "^2.0.0",
     "@swc-node/register": "~1.9.1",
