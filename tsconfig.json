@@ -6,9 +6,6 @@
       "path": "./apps/official"
     },
     {
-      "path": "./packages/ui"
-    },
-    {
       "path": "./packages/iconify"
     },
     {

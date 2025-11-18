@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { CpMenu } from '@coscup2026/ui'
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
 import LanguageIcon from '~icons/tabler/language'
+import CpMenu from '@/components/ui/CpMenu.vue'
 
 const router = useRouter()
 const { locale } = useI18n()
