@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "vite-ssg build"
+    "dev": "vite",
+    "build": "vite-ssg build",
+    "preview": "vite preview"
   }
 }
