@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { markdown } from '@coscup2026/utils'
+import markdown from '@/utils/markdown'
 
 defineProps<{
   text: string

@@ -1,19 +1,7 @@
 {
-  "extends": "./tsconfig.base.json",
-  "compileOnSave": false,
   "references": [
-    {
-      "path": "./apps/official"
-    },
-    {
-      "path": "./packages/ui"
-    },
-    {
-      "path": "./packages/iconify"
-    },
-    {
-      "path": "./packages/utils"
-    }
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
   ],
   "files": []
 }

@@ -1,13 +1,11 @@
 import { resolve } from 'node:path'
 import vue from '@vitejs/plugin-vue'
 import UnoCss from 'unocss/vite'
-import { ExternalPackageIconLoader } from 'unplugin-icons/loaders'
+import { FileSystemIconLoader } from 'unplugin-icons/loaders'
 import Icons from 'unplugin-icons/vite'
 import { defineConfig } from 'vite'
 
 export default defineConfig(() => ({
-  root: __dirname,
-  cacheDir: '../../node_modules/.vite/apps/official',
   server: {
     port: 4200,
     host: 'localhost',
@@ -22,12 +20,11 @@ export default defineConfig(() => ({
     Icons({
       autoInstall: true,
       customCollections: {
-        ...ExternalPackageIconLoader('@coscup2026/iconify'),
+        cp: FileSystemIconLoader('./src/assets/icons'),
       },
     }),
   ],
   build: {
-    outDir: './dist',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
