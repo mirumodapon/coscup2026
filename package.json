@@ -51,12 +51,13 @@
     "unocss": "^66.5.0",
     "unocss-preset-theme": "^0.14.1",
     "unplugin-icons": "^22.2.0",
+    "unplugin-vue-router": "^0.17.1",
     "vite": "^6.0.0",
     "vite-plugin-dts": "~4.5.0",
     "vite-ssg": "^28.1.0",
     "vitest": "^3.0.0",
     "vue-i18n": "^11.1.12",
-    "vue-router": "^4.5.1",
+    "vue-router": "^4.6.3",
     "vue-tsc": "^2.2.8"
   }
 }
