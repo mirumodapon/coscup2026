@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import CpPopover from '@/components/ui/CpPopover.vue'
+import CpPopover from '@/components/shared/CpPopover.vue'
 
 interface Options {
   label: string
