@@ -8,8 +8,8 @@
     "dev": "vite",
     "build": "vite-ssg build",
     "preview": "vite preview",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "type-check": "vue-tsc --build",
     "test": "vitest"
   },

@@ -7,17 +7,7 @@ import antfu from '@antfu/eslint-config'
 // ╚██████╔╝██║     ███████╗██║ ╚████║    ███████║╚██████╔╝╚██████╔╝██║  ██║╚██████╗███████╗    ██║███████║    ██║  ██║    ╚██████╔╝██║██║        ██║
 //  ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝    ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚══════╝    ╚═╝╚══════╝    ╚═╝  ╚═╝     ╚═════╝ ╚═╝╚═╝        ╚═╝
 
-export default antfu({
-  stylistic: {
-    indent: 2,
-    quotes: 'single',
-  },
-
-  typescript: true,
-  jsonc: true,
-  yaml: true,
-  vue: true,
-}, {
+export default antfu({}, {
   rules: {
     'curly': ['error', 'multi-line', 'consistent'],
     'node/prefer-global/buffer': ['error', 'always'],
