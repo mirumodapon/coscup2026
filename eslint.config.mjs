@@ -13,13 +13,9 @@ export default antfu({}, {
     'node/prefer-global/buffer': ['error', 'always'],
     'node/prefer-global/process': ['error', 'always'],
     'style/arrow-parens': ['error', 'always'],
-    'style/brace-style': ['error', 'stroustrup'],
+    'style/brace-style': ['error', '1tbs'],
     'style/operator-linebreak': ['error', 'after', { overrides: { '?': 'before', ':': 'before' } }],
     'vue/max-attributes-per-line': ['error'],
     'vue/attributes-order': ['error', { alphabetical: true }],
-  },
-}, {
-  rules: {
-    'no-console': ['warn'],
   },
 })
