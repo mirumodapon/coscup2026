@@ -1,5 +1,5 @@
 import { resolve } from 'node:path'
-import vue from '@vitejs/plugin-vue'
+import Vue from '@vitejs/plugin-vue'
 import UnoCss from 'unocss/vite'
 import { FileSystemIconLoader } from 'unplugin-icons/loaders'
 import Icons from 'unplugin-icons/vite'
@@ -15,7 +15,7 @@ export default defineConfig(() => ({
     host: 'localhost',
   },
   plugins: [
-    vue(),
+    Vue(),
     UnoCss(),
     Icons({
       autoInstall: true,
