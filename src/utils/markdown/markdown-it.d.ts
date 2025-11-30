@@ -66,4 +66,3 @@ declare module 'markdown-it-emoji' {
 
   export const full: SimplePlugin
 }
-
