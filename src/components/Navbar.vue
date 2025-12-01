@@ -17,15 +17,15 @@ const menu = [
 </script>
 
 <template>
-  <nav class="flex justify-center items-center bg-white shadow-lg h-16 text-gray-700">
-    <div class="basis-[180px] h-full shrink-0 px-3 py-1">
+  <nav class="text-gray-700 bg-white flex h-16 shadow-lg items-center justify-center">
+    <div class="px-3 py-1 shrink-0 basis-[180px] h-full">
       <img
-        class="w-inherit h-inherit"
+        class="h-inherit w-inherit"
         :src="logoImg"
       >
     </div>
-    <div class="h-full grow-1 overflow-auto">
-      <ul class="h-inherit flex justify-center items-center gap-3">
+    <div class="grow-1 h-full overflow-auto">
+      <ul class="flex gap-3 h-inherit items-center justify-center">
         <li
           v-for="item in menu"
           :key="item.name"
@@ -45,7 +45,7 @@ const menu = [
         </li>
       </ul>
     </div>
-    <div class="text-[24px] flex justify-end items-center basis-[180px] px-3 py-1">
+    <div class="text-[24px] px-3 py-1 flex basis-[180px] items-center justify-end">
       <LocaleSelector />
     </div>
   </nav>

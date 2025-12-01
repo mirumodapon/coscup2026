@@ -46,7 +46,7 @@ withDefaults(
 }
 
 .cp-sample-sponsor-card:hover {
-    @apply transform scale-105 duration-300;
+  @apply transform scale-105 duration-300;
 }
 
 .cp-sample-sponsor-card--sm {
@@ -74,6 +74,6 @@ withDefaults(
 }
 
 .cp-sample-sponsor-card__label > span {
-@apply w-full h-full block bg-primary-600 text-white
+  @apply w-full h-full block bg-primary-600 text-white;
 }
 </style>
