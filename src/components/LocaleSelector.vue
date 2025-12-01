@@ -24,7 +24,7 @@ function handleLocaleSelect(option) {
     :options="language"
     @select="handleLocaleSelect"
   >
-    <button class="cursor-pointer transition hover:scale-105 active:scale-95">
+    <button class="cursor-pointer transition active:scale-95 hover:scale-105">
       <LanguageIcon />
     </button>
   </CpMenu>
