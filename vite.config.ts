@@ -3,6 +3,7 @@ import Vue from '@vitejs/plugin-vue'
 import UnoCss from 'unocss/vite'
 import { FileSystemIconLoader } from 'unplugin-icons/loaders'
 import Icons from 'unplugin-icons/vite'
+import VueRouter from 'unplugin-vue-router/vite'
 import { defineConfig } from 'vite'
 
 export default defineConfig(() => ({
@@ -15,6 +16,7 @@ export default defineConfig(() => ({
     host: 'localhost',
   },
   plugins: [
+    VueRouter(),
     Vue(),
     UnoCss(),
     Icons({
@@ -39,5 +41,18 @@ export default defineConfig(() => ({
   ssgOptions: {
     dirStyle: 'nested' as const,
     formatting: 'minify' as const,
+    includedRoutes(paths) {
+      // Generate routes for each language
+      const languages = ['en', 'zh']
+
+      return paths.flatMap((path) => {
+        // For dynamic routes with :lang parameter, generate one version per language
+        if (path.includes(':lang')) {
+          return languages.map((lang) => path.replace(/:lang/g, lang))
+        }
+        // For static routes, return as-is
+        return path
+      })
+    },
   },
 }))
