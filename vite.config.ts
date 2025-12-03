@@ -43,7 +43,7 @@ export default defineConfig(() => ({
     formatting: 'minify' as const,
     includedRoutes(paths) {
       // Generate routes for each language
-      const languages = ['en', 'zh']
+      const languages = ['en', 'zh-TW']
 
       return paths.flatMap((path) => {
         // For dynamic routes with :lang parameter, generate one version per language
