@@ -28,7 +28,7 @@
     "@unocss/eslint-plugin": "^66.5.9",
     "@unocss/preset-wind4": "^66.5.0",
     "@unocss/transformer-directives": "^66.5.0",
-    "@vitejs/plugin-vue": "^5.2.3",
+    "@vitejs/plugin-vue": "^6.0.0",
     "@vitest/ui": "^3.0.0",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.8.1",
