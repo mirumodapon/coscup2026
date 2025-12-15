@@ -1,0 +1,23 @@
+// @ts-check
+import { antfu } from '@antfu/eslint-config'
+import withNuxt from './.nuxt/eslint.config.mjs'
+
+export default withNuxt(
+  antfu({
+    formatters: true,
+    unocss: true,
+    typescript: true,
+  }),
+  {
+    rules: {
+      'curly': ['error', 'multi-line', 'consistent'],
+      'node/prefer-global/buffer': ['error', 'always'],
+      'node/prefer-global/process': ['error', 'always'],
+      'style/arrow-parens': ['error', 'always'],
+      'style/brace-style': ['error', '1tbs'],
+      'style/operator-linebreak': ['error', 'after', { overrides: { '?': 'before', ':': 'before' } }],
+      'vue/max-attributes-per-line': ['error'],
+      'vue/attributes-order': ['error', { alphabetical: true }],
+    },
+  },
+)
