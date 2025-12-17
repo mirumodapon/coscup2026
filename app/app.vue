@@ -28,8 +28,9 @@ const otherLocale = computed(() => {
 
     <nav class="text-gray-700 px-3 py-1 bg-white flex h-16 shadow-lg justify-between *:h-full">
       <div>
-        <NuxtImg
-          class="h-inherit w-inherit"
+        <NuxtPicture
+          :alt="t('logo_alt')"
+          :img-attrs="{ class: 'h-full' }"
           src="/coscup_logo.png"
         />
       </div>
@@ -68,6 +69,7 @@ const otherLocale = computed(() => {
 
 <i18n lang="yaml">
 en:
+  logo_alt: "COSCUP 2026 Logo"
   menu:
     home: "Home"
     about: "About"
@@ -81,6 +83,7 @@ en:
     blog: "Blog"
     coc: "CoC"
 zh:
+  logo_alt: "COSCUP 2026 標誌"
   menu:
     home: "首頁"
     about: "關於我們"
