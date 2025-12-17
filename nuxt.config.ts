@@ -31,7 +31,6 @@ export default defineNuxtConfig({
       { code: 'en', name: 'English', language: 'en-US' },
       { code: 'zh', name: '中文', language: 'zh-Hant-TW' },
     ],
-    strategy: 'prefix_except_default',
     defaultLocale: 'zh',
   },
 })
