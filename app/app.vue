@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { locale, locales, t } = useI18n()
+const { locale, locales, defaultLocale, t } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 
 const menu = computed(() => [
@@ -17,8 +17,8 @@ const menu = computed(() => [
 ])
 
 const otherLocale = computed(() => {
-  const defaultLocale = locales.value.find((l) => l.code === 'zh')!
-  return locales.value.find((l) => l.code !== locale.value) ?? defaultLocale
+  const defaultLocaleObject = locales.value.find((l) => l.code === defaultLocale)!
+  return locales.value.find((l) => l.code !== locale.value) ?? defaultLocaleObject
 })
 </script>
 
