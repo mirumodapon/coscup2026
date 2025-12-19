@@ -20,6 +20,7 @@ export default defineNuxtConfig({
 
   content: {
     experimental: { nativeSqlite: true },
+    renderer: { anchorLinks: false },
   },
 
   eslint: {
