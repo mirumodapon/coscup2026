@@ -26,11 +26,11 @@ const otherLocale = computed(() => {
   <div>
     <NuxtRouteAnnouncer />
 
-    <nav class="text-gray-700 px-3 py-1 bg-white flex h-16 shadow-lg justify-between *:h-full">
-      <div>
+    <nav class="text-gray-700 px-3 py-1 bg-#f9f9f9 flex h-16 justify-between *:h-full">
+      <div class="flex items-center">
         <NuxtPicture
           :alt="t('logo_alt')"
-          :img-attrs="{ class: 'h-full' }"
+          :img-attrs="{ class: 'object-cover h-8' }"
           src="/coscup_logo.png"
         />
       </div>
@@ -63,7 +63,7 @@ const otherLocale = computed(() => {
       </div>
     </nav>
 
-    <NuxtPage />
+    <NuxtPage class="mx-auto py-2" />
   </div>
 </template>
 
