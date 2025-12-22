@@ -5,7 +5,7 @@ const switchLocalePath = useSwitchLocalePath()
 const menu = computed(() => [
   { key: 'home', path: '/' },
   { key: 'about', path: '/about' },
-  { key: 'event', path: '#' },
+  { key: 'transportation', path: '/transportation' },
   { key: 'sessions', path: '#' },
   { key: 'topics', path: '#' },
   { key: 'sponsors', path: '#' },
@@ -73,7 +73,7 @@ en:
   menu:
     home: "Home"
     about: "About"
-    event: "Event"
+    transportation: "Transportation"
     sessions: "Sessions"
     topics: "Topics"
     sponsors: "Sponsors"
@@ -87,7 +87,7 @@ zh:
   menu:
     home: "首頁"
     about: "關於我們"
-    event: "年會資訊"
+    transportation: "交通"
     sessions: "議程表"
     topics: "議程主題"
     sponsors: "贊助夥伴"
