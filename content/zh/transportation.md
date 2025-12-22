@@ -2,7 +2,9 @@
 
 ## 活動地點
 
-[國立臺灣科技大學]
+[國立臺灣科技大學]{.text-xl.font-semibold}
+
+:copyable{text="台北市大安區基隆路四段 43 號"}
 
 :leaflet-map
 

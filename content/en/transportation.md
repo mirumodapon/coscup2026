@@ -2,7 +2,9 @@
 
 ## Venue
 
-[National Taiwan University of Science and Technology]
+[National Taiwan University of Science and Technology]{.text-xl.font-semibold}
+
+:copyable{text="No. 43, Sec. 4, Keelung Rd., Da’an Dist., Taipei City"}
 
 :leaflet-map
 
