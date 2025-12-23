@@ -36,33 +36,6 @@ onMounted(async () => {
   />
 </template>
 
-<style>
-.dark {
-  .leaflet-layer {
-    filter: invert(100%) hue-rotate(180deg) contrast(60%);
-  }
-
-  /* TODO add dark mode styles */
-  .leaflet-control,
-  .leaflet-control a {
-    color: var(--vp-button-alt-text);
-    background-color: var(--vp-button-alt-bg);
-
-    &.leaflet-disabled {
-      color: var(--vp-c-text-2);
-    }
-
-    &:hover {
-      background-color: var(--vp-button-alt-hover-bg);
-    }
-  }
-
-  .leaflet-container {
-    background-color: transparent;
-  }
-}
-</style>
-
 <i18n lang="yaml">
 en:
   attribution:
