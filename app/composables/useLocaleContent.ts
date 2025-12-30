@@ -3,7 +3,7 @@ import type { Collections } from '@nuxt/content'
 export default async function useLocaleContent(
   path: MaybeRefOrGetter<string>,
   locale: Ref<string>,
-  defaultLocale: string
+  defaultLocale: string,
 ) {
   const { data: content } = await useAsyncData(`page-${locale.value}-${toValue(path)}`, async () => {
     // Build collection name based on current locale
