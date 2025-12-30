@@ -6,7 +6,9 @@
     "build": "nuxt generate",
     "dev": "nuxt dev",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint",
+    "typecheck": "nuxt typecheck"
   },
   "dependencies": {
     "@nuxt/content": "3.9.0",
