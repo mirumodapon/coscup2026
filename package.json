@@ -15,9 +15,9 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@nuxt/content": "3.9.0",
+    "@nuxt/content": "3.10.0",
     "@nuxt/eslint": "1.12.1",
-    "@nuxt/icon": "2.1.0",
+    "@nuxt/icon": "2.1.1",
     "@nuxt/image": "2.0.0",
     "@nuxtjs/i18n": "10.2.1",
     "@vueuse/core": "14.1.0",
@@ -25,23 +25,23 @@
     "leaflet": "1.9.4",
     "nuxt": "4.2.2",
     "ufo": "1.6.1",
-    "vue": "3.5.25",
+    "vue": "3.5.26",
     "vue-router": "4.6.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "6.7.1",
-    "@iconify-json/tabler": "1.2.23",
+    "@antfu/eslint-config": "6.7.3",
+    "@iconify-json/tabler": "1.2.25",
     "@types/geojson": "7946.0.16",
     "@types/leaflet": "1.9.21",
-    "@unocss/eslint-plugin": "66.5.10",
-    "@unocss/extractor-mdc": "66.5.10",
-    "@unocss/nuxt": "66.5.10",
-    "@unocss/preset-wind4": "66.5.10",
-    "@unocss/transformer-directives": "66.5.10",
+    "@unocss/eslint-plugin": "66.5.11",
+    "@unocss/extractor-mdc": "66.5.11",
+    "@unocss/nuxt": "66.5.11",
+    "@unocss/preset-wind4": "66.5.11",
+    "@unocss/transformer-directives": "66.5.11",
     "eslint-plugin-format": "1.1.0",
     "typescript": "5.9.3",
-    "unocss": "66.5.10",
+    "unocss": "66.5.11",
     "unocss-preset-theme": "0.14.1",
-    "vue-tsc": "3.2.0"
+    "vue-tsc": "3.2.1"
   }
 }
