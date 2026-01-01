@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 
-const { t, locales, locale } = useI18n()
+const { t, locales } = useI18n()
+const switchLocalePath = useSwitchLocalePath()
 
 definePageMeta({
   layout: 'page-only',
@@ -24,15 +25,15 @@ definePageMeta({
           選擇語言 / Select language
         </p>
         <div class="gap-4 grid grid-cols-1 justify-center md:grid-cols-2">
-          <button
+          <NuxtLink
             v-for="l in locales"
             :key="l.code"
-            class="text-white font-semibold px-4 py-2 rounded bg-blue-500 hover:bg-blue-600"
+            class="text-center text-white font-semibold px-4 py-2 rounded bg-blue-500 hover:bg-blue-600"
+            :to="switchLocalePath(l.code)"
             type="button"
-            @click="locale = l.code"
           >
             {{ l.name }}
-          </button>
+          </NuxtLink>
         </div>
       </div>
 
