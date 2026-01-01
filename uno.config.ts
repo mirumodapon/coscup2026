@@ -35,7 +35,7 @@ export default defineConfig({
             'primary-600': '#4C4598',
             'primary-700': '#332E66',
             'primary-800': '#191733',
-            'cpgreen': '#3C9838',
+            'cp-green': '#3C9838',
           },
         },
       },

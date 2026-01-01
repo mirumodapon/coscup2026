@@ -13,10 +13,10 @@ definePageMeta({
   <div class="p-4 flex flex-col gap-12 min-h-screen items-center justify-center from-blue-50 to-white bg-gradient-to-b">
     <div class="max-w-2xl w-full">
       <div class="mb-8 text-center">
-        <h1 class="text-cpgreen text-5xl font-bold mb-4">
+        <h1 class="text-5xl text-cp-green font-bold mb-4">
           COSCUP 2026
         </h1>
-        <p class="text-cpgreen text-2xl font-semibold mb-2">
+        <p class="text-2xl text-cp-green font-semibold mb-2">
           {{ t('coming_soon') }}
         </p>
       </div>
@@ -28,7 +28,7 @@ definePageMeta({
           <NuxtLink
             v-for="l in locales"
             :key="l.code"
-            class="text-center text-white font-semibold px-4 py-2 rounded bg-blue-500 hover:bg-blue-600"
+            class="text-white font-semibold px-4 py-2 text-center rounded bg-blue-500 hover:bg-blue-600"
             :to="switchLocalePath(l.code)"
             type="button"
           >
