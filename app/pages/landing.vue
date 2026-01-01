@@ -42,7 +42,7 @@ definePageMeta({
           <h3 class="text-xl font-bold mb-2 text-center">
             {{ t('call_for_sponsor') }}
           </h3>
-          <p class="text-sm text-orange-100 text-center text-justify">
+          <p class="text-sm text-orange-100 text-justify">
             {{ t('call_for_sponsor_desc') }}
           </p>
         </div>
