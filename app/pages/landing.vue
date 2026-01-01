@@ -55,13 +55,13 @@ definePageMeta({
 en:
   coming_soon: "Coming soon"
   call_for_sponsor: "Support COSCUP"
-  call_for_sponsor_desc: "If you are interested in sponsoring COSCUP 2026, please feel free to contact us at sponsor{'@'}coscup.org"
+  call_for_sponsor_desc: "If you are interested in sponsoring COSCUP 2026, please feel free to contact us at sponsorship{'@'}coscup.org"
   call_for_volunteer: "Support COSCUP"
   call_for_volunteer_desc: "If you are interested in volunteering for COSCUP 2026, please feel free to contact us at volunteer{'@'}coscup.org"
 zh:
   coming_soon: "敬請期待"
   call_for_sponsor: "贊助 COSCUP"
-  call_for_sponsor_desc: "若您對贊助 COSCUP 2026 有興趣，歡迎透過電子郵件與我們聯繫：sponsor{'@'}coscup.org"
+  call_for_sponsor_desc: "若您對贊助 COSCUP 2026 有興趣，歡迎透過電子郵件與我們聯繫：sponsorship{'@'}coscup.org"
   call_for_volunteer: "參與 COSCUP"
   call_for_volunteer_desc: "若您對參與 COSCUP 2026 有興趣，歡迎透過電子郵件與我們聯繫：volunteer{'@'}coscup.org"
 </i18n>
