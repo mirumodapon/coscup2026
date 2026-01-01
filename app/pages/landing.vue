@@ -5,7 +5,7 @@ const { t, locales } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 
 definePageMeta({
-  layout: 'page-only',
+  layout: 'empty',
 })
 </script>
 
