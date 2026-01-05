@@ -6,7 +6,9 @@ import { defineConfig, presetTypography } from 'unocss'
 import presetThemes from 'unocss-preset-theme'
 
 export default defineConfig({
-  mergeSelectors: true,
+  shortcuts: {
+    icon: '-align-0.125em',
+  },
   extractors: [
     extractorMdc(),
   ],
