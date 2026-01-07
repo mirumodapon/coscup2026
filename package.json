@@ -2,7 +2,7 @@
   "name": "coscup-2026",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.26.2",
+  "packageManager": "pnpm@10.27.0",
   "engines": {
     "node": ">=24.0.0"
   },
@@ -30,17 +30,17 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "6.7.3",
-    "@iconify-json/tabler": "1.2.25",
+    "@iconify-json/tabler": "1.2.26",
     "@types/geojson": "7946.0.16",
     "@types/leaflet": "1.9.21",
-    "@unocss/eslint-plugin": "66.5.11",
-    "@unocss/extractor-mdc": "66.5.11",
-    "@unocss/nuxt": "66.5.11",
-    "@unocss/preset-wind4": "66.5.11",
-    "@unocss/transformer-directives": "66.5.11",
+    "@unocss/eslint-plugin": "66.5.12",
+    "@unocss/extractor-mdc": "66.5.12",
+    "@unocss/nuxt": "66.5.12",
+    "@unocss/preset-wind4": "66.5.12",
+    "@unocss/transformer-directives": "66.5.12",
     "eslint-plugin-format": "1.1.0",
     "typescript": "5.9.3",
-    "unocss": "66.5.11",
+    "unocss": "66.5.12",
     "unocss-preset-theme": "0.14.1",
     "vue-tsc": "3.2.1"
   }
